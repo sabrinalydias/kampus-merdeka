@@ -1,6 +1,23 @@
 ## Tugas 2 - HTML
 
 ### No.1
+####  Source code :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Website Pertamaku</h1>
+    <p>Ini adalah pertama kali saya membuat sebuah website menggunakan HTML</p>
+    <a href="https://www.google.com" target="_blank">tekan ini untuk pergi ke google</a>
+</body>
+</html>
+```
 ![image](https://user-images.githubusercontent.com/83162422/133298240-7692cc9e-9eec-4b59-b943-61e03f0d9430.png)
 
 ### No.2
