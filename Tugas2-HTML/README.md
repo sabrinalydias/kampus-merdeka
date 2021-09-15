@@ -270,4 +270,4 @@
 ![image](https://user-images.githubusercontent.com/83162422/133298778-452d3b15-2067-441c-9f89-295a2c17016f.png)
 
 ### No.6
-Berikut merupakan link Netflify : https://awesome-hugle-7def89.netlify.app/
+Berikut merupakan link Netflify : tugas2sabrinalydia.netlify.app
