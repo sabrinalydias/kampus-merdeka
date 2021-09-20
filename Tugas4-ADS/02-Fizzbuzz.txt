@@ -1,0 +1,22 @@
+Fizz-Buzz Program: 
+   
+1. BEGIN   
+2. STORE "n" AS INTEGER WITH ANY VALUE 
+3. STORE "temp" AS INTEGER WITH 1
+4. IF "n" is LESS THAN 1   
+        DISPLAY "The minimum value is 1"  
+    
+    ELSE   
+        WHILE "temp" LESS THAN or EQUALS to "x"  
+            IF "temp" MODULUS BY 3 EQUALS 0   
+                DISPLAY "Fizz"  
+            ELSE IF "temp" MODULUS BY 5 EQUALS 0  
+                DISPLAY "Buzz"
+            ELSE IF "temp" MODULUS BY 3 EQUALS 0 AND "temp" MODULUS BY 5 EQUAL 0  
+                DISPLAY "FizzBuzz"
+            ELSE  
+                DISPLAY "temp"  
+            SET "temp" <- "temp" PLUS 1  
+        END WHILE  
+
+5. END  

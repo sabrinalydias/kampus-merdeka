@@ -1,0 +1,17 @@
+Skilvul Grading Program:  
+
+1. BEGIN  
+2. STORE "first_grade" AS INTEGER WITH ANY VALUE  
+3. STORE "final_grade" AS INTEGER
+
+4. IF "first_grade" is LESS THAN 68
+        SET "final_grade" <- "first_grade"
+    ELSE IF ("grade" PLUS 1) MODULUS BY 5 EQUAL 0
+        SET "final_grade" <- "first_grade" PLUS 1
+    ELSE IF ("grade" PLUS 2) MODULUS BY 5 EQUAL 0
+        SET "final_grade" <- "first_grade" PLUS 2
+    ELSE 
+        SET "final_grade" <- "first_grade"
+
+5. DISPLAY "final_grade"
+6. END
