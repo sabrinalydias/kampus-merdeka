@@ -2,7 +2,7 @@
 link : https://github.com/sabrinalydias/Tugas5-Git-01/tree/master
 
 ## 02-porfolio-and-cv
-link :
+link : https://github.com/sabrinalydias/Tugas5-Git-02
 
 ## 03-branch-and-merge
 #### 1. What does `git clean` do?
@@ -107,3 +107,4 @@ But be careful, If you modify a commit, that commit and all successive commits w
 if you did in fact complete an interactive rebase on commits that were already pushed to a remote branch and then pushed your branch again you would see an error.
 
 ## 05-submit-my-change
+link :
