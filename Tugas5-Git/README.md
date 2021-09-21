@@ -4,6 +4,66 @@ link : https://github.com/sabrinalydias/Tugas5-Git-01/tree/master
 ## 02-porfolio-and-cv
 link : https://github.com/sabrinalydias/Tugas5-Git-02
 
+1. Membuat sebuah folder kosong dengan namamu sendiri
+mkdir sasab
+
+2. Membuat sebuah file dengan nama README.md, isi file tersebut dengan kalimat
+"Halo perkenalkan aku halaman utama"
+touch README.md
+echo -e "Halo perkenalkan aku halaman utama\n\n" >> README.md
+
+3. Insialisasi folder tersebut dengan Git, kemudian dokumentasikan menggunakan commit dengan pesan
+"Inisialisasi Git Repository"
+git init .
+git add .
+git commit -m "Inisialisasi Git Repository"
+
+4. Buat branch baru dengan nama cv, hal ini berguna agar histori kita tidak tercampur
+git branch cv
+
+5.Pindah branch kedalam cv, kemudian buat file dengan nama cv.txt dan isi file tersebut dengan kalimat:
+"Ini adalah file CV"
+git checkout cv
+touch cv.txt
+echo "Ini adalah file CV >> cv.txt
+
+6.Kemudian dokumentasikan menggunakan commit dengan pesan
+"Inisialisasi CV"
+git add .
+git commit -m "inisialisasi cv"
+
+7.Tambahkan 3 perusahaan yang akan kamu lamar, dan setiap menuliskan 1 nama perusahaan kamu harus melakukan dokumentasi menggunakan commit
+echo "Google" >> cv.txt
+git add .
+git commit -m "tambah Google"
+
+echo "BI" >> cv.txt
+git add .
+git commit -m "BI"
+
+echo "Shopee" >> cv.txt
+git add .
+git commit -m "Shopee"
+Kembali ke branch master
+git checkout master
+
+8. Ubah file README.md menjadi
+Halo perkenalkan aku halaman utama
+Ini adalah update pertama pada branch master
+echo "Ini adalah update pertama pada branch master" >> README.md
+
+9. Jangan lupa untuk mendokumentasikannya menggunakan commit dengan pesan
+"update master pertama"
+git add .
+git commit -m "update master pertama"
+
+10.Gabungkan branch cv kedalam branch master menggunakan perintah git merge
+git merge cv
+
+11. Unggah Git Repository tersebut kedalam GitHub
+git remote add origin https://github.com/rosaamalia/05-Git-and-Github.git
+git push origin master
+
 ## 03-branch-and-merge
 #### 1. What does `git clean` do?
 `git-clean` - Remove untracked files from the working tree
@@ -107,4 +167,42 @@ But be careful, If you modify a commit, that commit and all successive commits w
 if you did in fact complete an interactive rebase on commits that were already pushed to a remote branch and then pushed your branch again you would see an error.
 
 ## 05-submit-my-change
-link :
+link : https://github.com/impactbyte/tech4impact-students-bio/pull/77
+
+1. Fork repository GitHub https://github.com/impactbyte/tech4impact-students-bio.git menggunakan akun Github kamu
+2. Clone remote repository dari hasil fork tersebut. Jangan clone dari repository originalnya. 
+git clone https://github.com/sabrinalydias/tech4impact-students-bio/tree/sabrinalydias
+
+3. Buatlah branch baru dengan nama lengkap kamu. Misalnya david-winalda. Jangan melakukan perubahan pada branch master. 
+git branch sabrinalydias
+
+4. Checkout ke dalam branch tersebut yang telah kamu buat image
+git checkout sabrinalydias
+
+5. Buatlah 1 file format .md dengan nama lengkap kamu. Contoh davidwinalda.md image
+nano sabrinalydias.md
+
+6. Isi file tersebut davidwinalda.md dengan konten di bawah ini: 
+#isi file
+
+7. Masukkan file .md tersebut ke dalam staging area image
+git add sabrinalydias.md
+
+8. Commit dengan memberikan pesan nama file .md kamu image
+git commit -m "sabrinalydias.md"
+
+9. Merge branch yang telah kamu buat ke dalam branch master image
+git checkout master
+git merge sabrinalydias
+
+10. Push ke dalam branch master image
+git push origin sabrinalydias
+
+11. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch master pada GitHub Repository aslinya. 
+https://github.com/impactbyte/tech4impact-students-bio/pull/77
+
+Screenshot :
+![image](https://user-images.githubusercontent.com/83162422/134213872-e64ca2d3-b4f4-44ae-b7ab-58b1b5df0fca.png)
+![image](https://user-images.githubusercontent.com/83162422/134214049-6e88148e-007b-4b4c-b65d-188c8cc4534e.png)
+![image](https://user-images.githubusercontent.com/83162422/134214113-d38fab6c-6695-4e70-bc63-95b73599448a.png)
+
