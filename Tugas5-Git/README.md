@@ -1,9 +1,9 @@
-### 01-the-basics
+## 01-the-basics
 https://github.com/sabrinalydias/Tugas5-Git-01/tree/master
 
-### 02-porfolio-and-cv
+## 02-porfolio-and-cv
 
-### 03-branch-and-merge
+## 03-branch-and-merge
 #### 1. What does `git clean` do?
 `git-clean` - Remove untracked files from the working tree
 Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
