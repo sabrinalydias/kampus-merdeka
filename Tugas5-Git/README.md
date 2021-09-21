@@ -1,7 +1,8 @@
 ## 01-the-basics
-https://github.com/sabrinalydias/Tugas5-Git-01/tree/master
+link : https://github.com/sabrinalydias/Tugas5-Git-01/tree/master
 
 ## 02-porfolio-and-cv
+link :
 
 ## 03-branch-and-merge
 #### 1. What does `git clean` do?
@@ -47,7 +48,7 @@ This can only resolve two heads using a 3-way merge algorithm. When there is mor
 #### 10. How do merge conflicts happen? 
 A merge conflict happens when two branches both modify the same region of a file and are subsequently merged. Git can't know which of the changes to keep, and thus needs human intervention to resolve the conflict.
 
-### 04-more-advanced
+## 04-more-advanced
 #### 1. What is the difference between git reset and git revert. When would you use one over the other?
 Git reset
 This command is somewhat complicated. It actually does a couple of different things depending on how it is invoked. The command modifies the index (the so-called “staging area”). 
@@ -105,4 +106,4 @@ modify. Or, put simply, we reference “the last commit [we] want to retain as-i
 But be careful, If you modify a commit, that commit and all successive commits will have new SHA-1’s. This won’t affect anything if the commits that you have modified haven’t been pushed to a remote branch. However, 
 if you did in fact complete an interactive rebase on commits that were already pushed to a remote branch and then pushed your branch again you would see an error.
 
-### 05-submit-my-change
+## 05-submit-my-change
